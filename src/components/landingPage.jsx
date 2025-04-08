@@ -31,9 +31,7 @@ function LandingPage() {
           </p>
         ))}
         <div className="start flex items-center gap-5">
-          <div className="px-5 py-2 border-[2px] border-zinc-500 uppercase font-light text-md uppercase rounded-full">
-            Start
-          </div>
+
           <div
             onClick={scrollToTop}
             className="w-10 h-10 border-[2px] border-zinc-500 flex items-center justify-center rounded-full cursor-pointer"
